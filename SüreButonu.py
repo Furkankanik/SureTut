@@ -6,7 +6,7 @@ Zamanlayıcı = {}
 
 
 pygame.mixer.init()
-ses_dosyasi = "C:/Users/W11/Desktop/RecepHoca/SüreDoldu.WAV"  
+ses_dosyasi = "C:/Users/W11/Desktop/SureTut/SüreDoldu.WAV"  
 pygame.mixer.music.load(ses_dosyasi)
 
 def süre_tut():
@@ -67,7 +67,7 @@ pencere = tk.Tk()
 pencere.title("Süreyi Başlat Programı")
 pencere.geometry("500x400")
 pencere.resizable(width=False, height=False)
-pencere.iconbitmap("C:/Users/W11/Desktop/RecepHoca/Süre.ico")
+pencere.iconbitmap("C:/Users/W11/Desktop/SureTut/Süre.ico")
 pencere.configure(background="#624E88")
 
 isim_label = tk.Label(pencere, text="İsim:", font=("Arial", 12, "bold"), bg="#624E88", fg="#F5F7F8")
